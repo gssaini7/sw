@@ -30,8 +30,8 @@ playGame.prototype = {
      // function to be executed once the state preloads
      preload: function(){
           // preloading graphic assets
-////          game.load.image("wheel", "wheel.png");
-////		game.load.image("pin", "pin.png");     
+          game.load.image("wheel", "wheel.png");
+		game.load.image("pin", "pin.png");     
      },
      // funtion to be executed when the state is created
   	create: function(){
@@ -57,7 +57,7 @@ playGame.prototype = {
           game.input.onDown.add(this.spin, this);		
 	},
      // function to spin the wheel
-     spin(){
+     spin:function(){
           // can we spin the wheel?
           if(canSpin){  
                // resetting text field
@@ -80,7 +80,7 @@ playGame.prototype = {
           }
      },
      // function to assign the prize
-     winPrize(){
+     winPrize:function(){
           // now we can spin the wheel again
           canSpin = true;
           // writing the prize you just won
