@@ -30,8 +30,8 @@ playGame.prototype = {
      // function to be executed once the state preloads
      preload: function(){
           // preloading graphic assets
-          game.load.image("wheel", "wheel.png");
-		game.load.image("pin", "pin.png");     
+////          game.load.image("wheel", "wheel.png");
+////		game.load.image("pin", "pin.png");     
      },
      // funtion to be executed when the state is created
   	create: function(){
