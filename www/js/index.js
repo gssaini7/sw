@@ -47,6 +47,6 @@ var app = {
         console.log('Received Event: ' + id);
     },
     callAnothePage: function() {
-        window.location = "wheel.html";
+        window.location = "www/wheel.html";
      }
 };
